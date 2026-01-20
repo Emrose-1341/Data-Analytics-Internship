@@ -1,13 +1,11 @@
 ## DCS Branch – Data Exploration + Reporting (TN Foster Care)
 
-This README documents the **`DCS` branch** of a **Data Analytics Internship / class project**. This branch focuses on **data exploration, cleaning, and reporting** for Tennessee Department of Children's Services (DCS) foster care data, including landscape analysis, mapping, and comprehensive data reports.
+This README documents the **`DCS` branch** of a **Data Analytics Internship**. This branch focuses on **data exploration, cleaning, and reporting** for Tennessee Department of Children's Services (DCS) foster care data, including landscape analysis, mapping, and comprehensive data reports.
 
 ### Table of Contents
 
-- **Quick Report** – Where to find the main deliverable PDF.  
-- **What's in this branch** – Key folders/files and what they do.  
-- **How to reproduce the analysis** – Typical notebook workflow.  
-- **Notes / Improvements** – What to improve if continuing.
+- **[Quick Report](#quick-report)** – Where to find the main deliverable PDF.  
+- **[What's in this branch](#What's-in-this-branch)** – Key folders/files and what they do.  
 
 ### Quick Report (Main Deliverable)
 
