@@ -40,28 +40,3 @@ This README documents the **`DCS` branch** of a **Data Analytics Internship / cl
 
 - **`README_2025_TN_VPI.md`**: Additional documentation specific to the 2025 Tennessee Vulnerability and Prevention Index (TN VPI) project, including project structure, data sources, and refresh availability.
 
-### How to Reproduce the Analysis
-
-1. **Checkout the branch**
-   - `git checkout DCS`
-2. **Open the notebooks**
-   - Use JupyterLab or VS Code.
-   - Suggested order:
-     - `Code/data checks.ipynb` (start with data quality validation)
-     - `Code/initial_analysis.ipynb` or `Code/new_initial_analysis.ipynb` (exploratory analysis)
-     - `Code/Table_Data_type_altering.ipynb` (data cleaning and type corrections)
-     - `Code/Percents.ipynb` or `Code/corrected_percents.ipynb` (percentage calculations)
-     - `Code/region_corrected.ipynb` (region-based analysis)
-     - `Code/Maping.ipynb` or `Code/Maping_percent.ipynb` (geographic visualizations)
-     - `Code/data_cluster_testin.ipynb` (clustering analysis, if needed)
-3. **View the reports**
-   - Open `Data Reports/data_summary_report.pdf` for the main summary report.
-   - Review other PDFs in `Data Reports/` for additional documentation and findings.
-
-### Notes / Improvements (If Continuing)
-
-- **Reproducibility**: add an environment file (e.g., `requirements.txt` or `environment.yml`) and document expected data file locations/names.  
-- **Data organization**: create a clear `data/` folder structure with raw vs. processed data separation, and document data sources in a centralized location.  
-- **Code modularization**: refactor repeated cleaning/transformation steps from notebooks into reusable Python modules or functions.  
-- **Documentation**: expand the data dictionary with detailed column descriptions, data types, and any known data quality issues or limitations.  
-- **Automation**: create scripts to automate the report generation pipeline (notebooks → markdown → PDF conversion) for easier updates when data refreshes.
