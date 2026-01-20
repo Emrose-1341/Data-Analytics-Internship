@@ -3,14 +3,11 @@
 This repository captures the work from a data analytics internship / class project focused on analyzing outcomes for youth in foster care.  
 The main branch exists primarily as a landing page, with the analysis work and reports organized into dedicated feature branches.
 
-### Table of Contents
-
-- **Overview** – What this project and repository are about.  
-- **Branch Overview and Purpose** – What lives in `main`, `DCS`, and `NYPD`.  
-- **Class / Internship Context** – How this work fits into a class/internship.  
-- **Skills Developed in This Project** – Key technical and analytical skills practiced.  
-- **Possible Improvements for Future Work** – Ideas if the project continues.  
-- **Getting Started** – How to clone, switch branches, and run notebooks.
+### Table of Contents 
+- **[Branch Overview and Purpose](#branch-overview-and-purpose)** – What lives in `main`, `DCS`, and `NYPD`.  
+- **[Context and Goals](#context-and-goals)** – How this work fits into a class/internship.  
+- **[Skills Developed in This Project](#skills-developed-in-this-project)** – Key technical and analytical skills practiced.  
+- **[Improvements for the Future](#improvements-for-the-future)** – Ideas if the project continues.  
 
 ### Branch Overview and Purpose
 
@@ -43,7 +40,7 @@ The main branch exists primarily as a landing page, with the analysis work and r
     - Review `Old reports/` and the summary reports to understand how the analysis evolved over time.  
     - **To see the main NYPD report**: open `all_visual_data_report.pdf` on the `NYPD` branch.
 
-### Class / Internship Context
+### Context and Goals
 
 - **Context**: This repository was created for a **Data Analytics Internship / class project** focused on real‑world, policy‑relevant data.  
 - **Goals**:  
@@ -78,7 +75,7 @@ The main branch exists primarily as a landing page, with the analysis work and r
   - Using Git branches (`main`, `DCS`, `NYPD`) to organize separate analytic tracks and preserve earlier reports.  
   - Writing project documentation for classmates, instructors, and future collaborators.
 
-### Possible Improvements for Future Work
+### Improvements for the Future
 
 If this project were to continue, some improvements and extensions that would be valuable include:
 
