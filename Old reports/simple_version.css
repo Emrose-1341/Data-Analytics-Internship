@@ -1,0 +1,596 @@
+/* Professional Report CSS - Optimized for Readability */
+
+.report-subtitle {
+    color: #444;
+    font-size: 22px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 30px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    font-style: italic;
+}
+
+.report-title {
+    color: #222;
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    letter-spacing: 1px;
+    font-style: italic;
+}
+
+/* Global Readability Settings */
+body {
+    background-color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+    line-height: 1.8;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Better paragraph spacing for readability */
+p {
+    margin-bottom: 20px;
+    line-height: 1.7;
+    max-width: 75ch; /* Optimal reading width */
+}
+
+/* Improved heading hierarchy */
+h1 {
+    margin-bottom: 35px;
+    margin-top: 50px;
+    color: #000000;
+    font-weight: 700;
+}
+
+h2 {
+    margin-bottom: 25px;
+    margin-top: 40px;
+    color: #000000;
+    font-weight: 600;
+}
+
+h3 {
+    margin-bottom: 20px;
+    margin-top: 35px;
+    color: #000000;
+    font-weight: 600;
+}
+
+h4 {
+    margin-bottom: 15px;
+    margin-top: 25px;
+    color: #000000;
+    font-weight: 600;
+}
+
+/* Navigation and TOC Container */
+.navigation-and-toc-container {
+    display: flex;
+    gap: 30px;
+    margin: 30px 0;
+    align-items: flex-start;
+}
+
+.navigation-and-toc-container .table-of-contents {
+    flex: 1;
+    margin: 0;
+}
+
+.navigation-and-toc-container .navigation-note {
+    flex: 1;
+    margin: 0;
+}
+
+/* Professional Table of Contents */
+.table-of-contents {
+    background-color: white;
+    padding: 35px;
+    margin: 30px 0;
+    border: 2px solid #000000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 600px;
+}
+
+.table-of-contents h2 {
+    color: #000000;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 700;
+    border-bottom: 2px solid #000000;
+    padding-bottom: 15px;
+}
+
+.table-of-contents ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.table-of-contents li {
+    margin-bottom: 12px;
+    display: flex;
+    align-items: baseline;
+    color: #000000;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.table-of-contents a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: 500;
+    flex-grow: 1;
+    display: flex;
+    align-items: baseline;
+}
+
+.table-of-contents a:hover {
+    color: #333;
+    text-decoration: underline;
+}
+
+/* Navigation Note */
+.navigation-note {
+    background-color: white;
+    padding: 35px;
+    margin: 30px 0;
+    border: 2px solid #000000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 600px;
+}
+
+.navigation-note h2 {
+    color: #000000;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 700;
+    border-bottom: 2px solid #000000;
+    padding-bottom: 15px;
+}
+
+.navigation-note ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 20px 0;
+}
+
+.navigation-note li {
+    color: #000000;
+    font-size: 16px;
+    margin-bottom: 12px;
+    padding-left: 30px;
+    position: relative;
+    line-height: 1.6;
+}
+
+.navigation-note li::before {
+    content: "▸";
+    color: #000000;
+    font-weight: bold;
+    position: absolute;
+    left: 5px;
+}
+
+/* Main Content Sections */
+.introduction,
+.executive-summary,
+.analysis-section,
+.significant-variables,
+.summary-dashboard,
+.data-overview,
+.key-findings,
+.outcome-statistics {
+    background-color: #FFFFFF;
+    padding: 50px;
+    margin: 40px 0;
+    border: 2px solid #CCCCCC;
+    border-radius: 8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+/* Quick Facts Boxes */
+.quick-facts {
+    background-color: #f8f9fa;
+    border-left: 5px solid #000000;
+    margin: 35px 0;
+    padding: 30px;
+    border-radius: 0 8px 8px 0;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.quick-facts h2 {
+    color: #000000;
+    font-size: 22px;
+    margin-bottom: 20px;
+    margin-top: 0;
+    font-weight: 600;
+}
+
+.quick-facts ul {
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+.quick-facts li {
+    font-size: 16px;
+    margin-bottom: 15px;
+    line-height: 1.7;
+    padding-left: 25px;
+    position: relative;
+}
+
+.quick-facts li::before {
+    content: "▸";
+    color: #000000;
+    font-weight: bold;
+    position: absolute;
+    left: 5px;
+}
+
+/* Key Findings Boxes */
+.key-findings-box,
+.key-insight {
+    background: #FFFFFF;
+    border: 3px solid #000000;
+    border-radius: 8px;
+    padding: 35px;
+    margin: 40px 0;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.key-findings-box h3,
+.key-insight h3 {
+    color: #000000;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+/* Professional Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 35px 0;
+    background-color: #FFFFFF;
+    border: 2px solid #CCCCCC;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    font-size: 15px;
+}
+
+th {
+    background: #000000;
+    color: #FFFFFF;
+    font-weight: 600;
+    padding: 18px 20px;
+    text-align: left;
+    font-size: 16px;
+    border-bottom: 2px solid #000000;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+td {
+    color: #000000;
+    padding: 16px 20px;
+    border-bottom: 1px solid #CCCCCC;
+    font-size: 15px;
+    line-height: 1.6;
+    vertical-align: top;
+}
+
+tr:nth-child(even) {
+    background-color: #FBFBFB;
+}
+
+tr:hover {
+    background-color: #F0F0F0;
+    transform: translateY(-1px);
+    transition: all 0.2s ease;
+}
+
+td:first-child {
+    font-weight: 600;
+}
+
+/* Dashboard Tables */
+.dashboard-table {
+    border: 2px solid #000000;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-table th {
+    font-size: 17px;
+    padding: 20px;
+}
+
+.dashboard-table td {
+    padding: 18px 20px;
+    font-size: 16px;
+}
+
+/* Dashboard Grid */
+.dashboard-grid {
+    display: flex;
+    gap: 40px;
+    margin: 30px 0;
+}
+
+.dashboard-column {
+    flex: 1;
+    min-width: 45%;
+}
+
+/* Dashboard Stats */
+.dashboard-stats-row {
+    display: flex;
+    gap: 30px;
+    margin: 40px 0;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.dashboard-stat {
+    background-color: #f8f9fa;
+    border: 2px solid #000000;
+    border-radius: 12px;
+    padding: 20px 24px;
+    text-align: center;
+    min-width: 160px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+}
+
+.dashboard-stat:hover {
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+    transform: translateY(-2px);
+    border-color: #000000;
+}
+
+.stat-number {
+    font-size: 2.2em;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 8px;
+    letter-spacing: 1px;
+    display: block;
+}
+
+.stat-label {
+    font-size: 1em;
+    color: #444;
+    text-align: center;
+    font-weight: 500;
+    line-height: 1.4;
+    display: block;
+}
+
+/* Improved List Styling */
+ul, ol {
+    margin: 25px 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+li {
+    margin-bottom: 15px;
+    line-height: 1.7;
+    padding-left: 30px;
+    position: relative;
+}
+
+li::before {
+    content: "▸";
+    color: #000000;
+    font-weight: bold;
+    position: absolute;
+    left: 8px;
+}
+
+/* Strong emphasis */
+strong {
+    color: #000000;
+    font-weight: 600;
+}
+
+/* Blockquotes */
+blockquote {
+    background-color: #F8F9FA;
+    border-left: 5px solid #000000;
+    margin: 35px 0;
+    padding: 30px;
+    border-radius: 0 8px 8px 0;
+    font-size: 16px;
+    line-height: 1.7;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+blockquote p {
+    margin: 12px 0;
+    color: #000000;
+}
+
+/* Page Breaks */
+.page-break {
+    page-break-after: always;
+    height: 0;
+    margin: 60px 0 0 0;
+    padding: 0;
+}
+
+/* Horizontal Rules */
+hr {
+    border: none;
+    height: 2px;
+    background-color: #CCCCCC;
+    margin: 50px 0;
+}
+
+/* Links */
+a {
+    color: #000000;
+    text-decoration: none;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+a:hover {
+    color: #333333;
+    border-bottom-color: #000000;
+}
+
+/* Appendix Sections */
+.appendix-variable-definitions,
+.appendix-tables,
+.appendix-section,
+.appendix-charts {
+    background-color: white;
+    padding: 40px;
+    margin: 50px 0;
+    border: 2px solid #CCCCCC;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.appendix-variable-definitions h1,
+.appendix-tables h1,
+.appendix-section h1,
+.appendix-charts h1 {
+    color: #000000;
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 35px;
+    font-weight: 700;
+    border-bottom: 3px solid #000000;
+    padding-bottom: 15px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .navigation-and-toc-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .dashboard-grid {
+        flex-direction: column;
+        gap: 30px;
+    }
+    
+    .dashboard-stats-row {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    .introduction,
+    .executive-summary,
+    .analysis-section,
+    .significant-variables,
+    .summary-dashboard,
+    .data-overview,
+    .key-findings,
+    .outcome-statistics {
+        padding: 30px 20px;
+        margin: 30px 0;
+    }
+    
+    .table-of-contents,
+    .navigation-note {
+        max-width: 100%;
+        padding: 25px 20px;
+    }
+    
+    .stat-number {
+        font-size: 1.8em;
+    }
+    
+    table {
+        font-size: 14px;
+    }
+    
+    th, td {
+        padding: 12px 15px;
+    }
+}
+
+/* Print Optimization */
+@media print {
+    body {
+        line-height: 1.6;
+        font-size: 12pt;
+    }
+    
+    .page-break {
+        page-break-after: always;
+        margin: 0;
+    }
+    
+    .navigation-and-toc-container {
+        display: table;
+        width: 100%;
+        table-layout: fixed;
+    }
+    
+    .navigation-and-toc-container .table-of-contents {
+        display: table-cell;
+        width: 50%;
+        vertical-align: top;
+        padding-right: 15px;
+    }
+    
+    .navigation-and-toc-container .navigation-note {
+        display: table-cell;
+        width: 50%;
+        vertical-align: top;
+        padding-left: 15px;
+    }
+    
+    .dashboard-stats-row {
+        flex-direction: row;
+        gap: 20px;
+        page-break-inside: avoid;
+    }
+    
+    .key-findings-box,
+    .key-insight,
+    .quick-facts {
+        page-break-inside: avoid;
+    }
+    
+    table {
+        page-break-inside: avoid;
+        margin: 20px 0;
+    }
+}
+
+/* PDF Headers */
+@page {
+    @top-left {
+        content: "NYTD Modeling: Visual Data Report";
+        font-size: 10pt;
+        font-family: Arial, sans-serif;
+        color: #333;
+    }
+    @top-right {
+        content: "Return to Table of Contents";
+        font-size: 10pt;
+        font-family: Arial, sans-serif;
+        color: #666;
+    }
+    @bottom-center {
+        content: counter(page);
+        font-size: 10pt;
+        font-family: Arial, sans-serif;
+        color: #333;
+    }
+}
