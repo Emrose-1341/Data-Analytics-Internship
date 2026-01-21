@@ -5,7 +5,7 @@ The main branch exists primarily as a landing page, with the analysis work and r
 Due to the nature of the information given, I cannot share any of the actual raw data.
 
 ### Table of Contents 
-- **[Branch Overview and Purpose](#branch-overview-and-purpose)** – What lives in `main`, `DCS`, and `NYPD`.  
+- **[Branch Overview and Purpose](#branch-overview-and-purpose)** – What lives in `main`, `DCS`, `NYPD`, and 'Masters-Programs' 
 - **[Context and Goals](#context-and-goals)** – How this work fits into a class/internship.  
 - **[Skills Developed in This Project](#skills-developed-in-this-project)** – Key technical and analytical skills practiced.  
 - **[Improvements for the Future](#improvements-for-the-future)** – Ideas if the project continues.  
@@ -25,7 +25,16 @@ Due to the nature of the information given, I cannot share any of the actual raw
     - `README_2025_TN_VPI.md` – Context and documentation specific to the 2025 TN VPI–related work.  
 
 - **`NYPD` branch**  
-  - **Purpose**: Modeling and visualization work for National Youth in Transition Database (NYTD)–style foster care data, focusing on predictors, outcomes, and key visualizations.  
+  - **Purpose**: Modeling and visualization work for National Youth in Transition Database (NYTD)–style foster care data, focusing on predictors, outcomes, and key visualizations.
+  
+-  **`Masters-Programs` branch**
+  - **Purpose**: Contains work related to various Masters program projects, organized into subject-specific folders such as `Music Therapy`, `Music Technology`, and `Legal Studies`.  
+  - **Key contents**:  
+    - `Music Therapy/` – Files related to Music Therapy projects, research notes, and documentation.  
+    - `Music Technology/` – Files related to Music Technology projects, including analysis and reports.  
+    - `Legal Studies/` – Files for Legal Studies projects and supporting documentation.  
+  - **How to use it**: Switch to this branch to access all Masters program–related files, organized by topic. Each folder contains individual files committed separately for version tracking.
+
   - **Key contents**:  
     - `Code/` – Jupyter notebooks for first‑pass analysis, building multiple models, outcome prediction, services analysis, and generating significant visualizations and summary dashboards.  
     - `Old reports/` – Earlier reports, markdown/PDF summaries, visual assets (PNGs, SVGs), and verification documents for checking data quality and model results.  
@@ -38,7 +47,8 @@ Due to the nature of the information given, I cannot share any of the actual raw
   - Practice the full analytics lifecycle: data intake, cleaning, exploratory analysis, modeling, visualization, and reporting.  
   - Communicate key findings to stakeholders through written reports and visual summaries.  
   - Learn to use Git branches to separate major lines of work while keeping a clean main branch for documentation.
-  - Provide states with specific data about their vulnerable populations by county. 
+  - Provide states with specific data about their vulnerable populations by county.
+  - Organize Masters program projects in the `Masters-Programs` branch for teaching, research, or portfolio purposes.
 
 ### Skills Developed in This Project
 
